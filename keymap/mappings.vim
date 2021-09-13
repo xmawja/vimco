@@ -1,7 +1,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" => Key Mappings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" coc-explore file manager
+"" COC-EXPLORE FILE MANAGER
 :nnoremap <space>e :CocCommand explorer<CR>
 
 

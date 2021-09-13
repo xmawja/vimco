@@ -1,6 +1,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" => Fonts 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" set default color scheme
+"" SET DEFAULT COLORS SCHEME
 autocmd vimenter * ++nested colorscheme gruvbox
 
