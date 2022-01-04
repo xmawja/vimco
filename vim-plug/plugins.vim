@@ -21,8 +21,25 @@ call plug#begin('$HOME/.config/nvim/vim-plug/plugged')
 "" gruvbox theme
 Plug 'morhetz/gruvbox'
 
+"" tomorrow theme
+Plug 'chriskempson/tomorrow-theme'
+
 "" coc autocomplation && indenting
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+"" Rust Analyzer Plugin 
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+
+" (Optional) Multi-entry selection UI.
+Plug 'junegunn/fzf'
+
+"" Rust Language Support
+Plug 'rust-lang/rust.vim'
+
+"" Nerdtree File Explorer 
+Plug 'preservim/nerdtree'
 call plug#end()
 

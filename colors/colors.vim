@@ -2,5 +2,5 @@
 "" => Fonts 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" SET DEFAULT COLORS SCHEME
-autocmd vimenter * ++nested colorscheme gruvbox
+autocmd vimenter * ++nested colorscheme 
 
