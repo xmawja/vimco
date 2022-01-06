@@ -27,6 +27,9 @@ Plug 'chriskempson/tomorrow-theme'
 "" coc autocomplation && indenting
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+"" lspconfig support language
+Plug 'neovim/nvim-lspconfig'
+
 "" Rust Analyzer Plugin 
 Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
@@ -36,10 +39,15 @@ Plug 'autozimu/LanguageClient-neovim', {
 " (Optional) Multi-entry selection UI.
 Plug 'junegunn/fzf'
 
+"" Lsp Config rust analizer
+Plug 'neovim/nvim-lspconfig'
+
 "" Rust Language Support
 Plug 'rust-lang/rust.vim'
 
 "" Nerdtree File Explorer 
 Plug 'preservim/nerdtree'
+
+
 call plug#end()
 
