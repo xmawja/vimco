@@ -30,6 +30,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "" lspconfig support language
 Plug 'neovim/nvim-lspconfig'
 
+"" svelte support
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+
 "" Rust Analyzer Plugin 
 Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
