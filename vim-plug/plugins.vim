@@ -24,6 +24,10 @@ Plug 'morhetz/gruvbox'
 "" tomorrow theme
 Plug 'chriskempson/tomorrow-theme'
 
+"" airline 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 "" coc autocomplation && indenting
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
