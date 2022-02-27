@@ -28,6 +28,9 @@ Plug 'chriskempson/tomorrow-theme'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+"" indentLine 
+Plug 'Yggdroot/indentLine' 
+
 "" coc autocomplation && indenting
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
