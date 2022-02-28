@@ -37,7 +37,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "" fzf fuzzy finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-
 "" vim-rooter change root directory
 Plug 'airblade/vim-rooter'
 
