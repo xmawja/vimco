@@ -27,3 +27,6 @@ logs
 
 # Ignore autoload directory
 /autoload/*
+
+# Ignore Plug specific
+fzf.core
