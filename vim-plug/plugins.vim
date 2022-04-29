@@ -31,8 +31,8 @@ Plug 'vim-airline/vim-airline-themes'
 "" indentLine 
 Plug 'Yggdroot/indentLine' 
 
-"" coc autocomplation && indenting
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"" Nerdtree File Explorer
+Plug 'preservim/nerdtree'
 
 "" fzf fuzzy finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -40,29 +40,26 @@ Plug 'junegunn/fzf.vim'
 "" vim-rooter change root directory
 Plug 'airblade/vim-rooter'
 
-"" lspconfig support language
+"" Lsp Config rust analizer
 Plug 'neovim/nvim-lspconfig'
+
+"" coc autocomplation && indenting
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "" svelte support
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
-"" Rust Analyzer Plugin 
-Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
-
-" (Optional) Multi-entry selection UI.
-Plug 'junegunn/fzf'
-
-"" Lsp Config rust analizer
-Plug 'neovim/nvim-lspconfig'
-
 "" Rust Language Support
 Plug 'rust-lang/rust.vim'
 
-"" Nerdtree File Explorer 
-Plug 'preservim/nerdtree'
+"" Rust Analyzer Plugin
+Plug 'autozimu/LanguageClient-neovim', {
+	\ 'branch': 'next',
+	\ 'do': 'bash install.sh',
+	\ }
+
+"" Markdown Previwe
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']},
 
 
 call plug#end()
