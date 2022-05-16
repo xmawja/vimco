@@ -41,6 +41,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 
 "" Lsp Config rust analizer
+Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
 
 "" coc autocomplation && indenting
