@@ -24,6 +24,9 @@ Plug 'morhetz/gruvbox'
 "" doom-one theme
 Plug 'romgrk/doom-one.vim'
 
+"" monaki pro theme
+Plug 'sainnhe/sonokai'
+
 "" tomorrow theme
 Plug 'chriskempson/tomorrow-theme'
 
