@@ -21,6 +21,9 @@ call plug#begin('$HOME/.config/nvim/vim-plug/plugged')
 "" gruvbox theme
 Plug 'morhetz/gruvbox'
 
+"" doom-one theme
+Plug 'romgrk/doom-one.vim'
+
 "" tomorrow theme
 Plug 'chriskempson/tomorrow-theme'
 
