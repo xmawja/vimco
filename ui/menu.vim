@@ -2,8 +2,10 @@
 "" => User Interface                     
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" ENABLE USE COLORSCHEME
-set termguicolors
+if has('termguicolors')
+	set termguicolors
+endif
 
 "" SET DEFAULT COLORS SCHEME
-autocmd vimenter * ++nested colorscheme
+autocmd vimenter * ++nested colorscheme sonokai
 
